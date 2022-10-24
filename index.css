@@ -5,6 +5,11 @@
   background-color: #f8edeb;
 }
 
+h1.maintitle {
+  text-transform: uppercase;
+ 
+}
+
 ul {
   color: #4a4e69;
   text-align: center;
@@ -33,10 +38,6 @@ button {
   border-radius: 10%;
 }
 
-footer {
-  text-align: right;
-}
-
 .djelatnosti {
   color: #b5838d;
 }
@@ -45,9 +46,10 @@ footer {
   color: #b5838d;
 }
 
-img {
+img[class$="slika"] {
   border-radius: 15px 50px 30px 15px;
   padding-left: 5px;
+  width: 600px;
 }
 
 [class] {
@@ -60,4 +62,8 @@ img {
 
 [class~="agenciji"] {
   text-transform: uppercase;
+}
+
+[class^="foo"]{
+  text-align: right;
 }
